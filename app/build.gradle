@@ -2,8 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 
-    ///b
-    //id 'kotlin-android-extensions'
+
     id 'kotlin-parcelize'
 }
 
@@ -25,10 +24,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            isDebuggable = false;
-        }
-        debug{
-            isDebuggable = true;
         }
     }
     buildFeatures {

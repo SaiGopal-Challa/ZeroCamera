@@ -31,15 +31,6 @@ typealias LumaListener = (luma: Double) -> Unit
 
 class MainActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
 
-    ///b
-    /*private lateinit var binding: ActivityMainBinding
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-    }*/
-    ///b\
     private var imageCapture: ImageCapture? = null
     private lateinit var outputDirectory: File
     private lateinit var cameraExecutor: ExecutorService
