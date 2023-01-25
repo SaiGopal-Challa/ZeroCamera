@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.cameraxexample'
+    namespace 'ZeroCamera'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.cameraxexample"
+        applicationId "java.ZeroCamera"
         minSdk 23
         targetSdk 33
         versionCode 1
